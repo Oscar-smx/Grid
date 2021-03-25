@@ -26,7 +26,7 @@ body{
 
 #container .textojuego1{
   padding: 9px;
-  background-color:#010017;
+  background-color: #010017;
   border-radius: 5px;
   grid-column: 1/8;
   grid-row: 3/4;
@@ -34,7 +34,7 @@ body{
 
 #container .video1{
   padding: 9px;
-  background-color:#81B5BB;
+  background-color: #81B5BB;
   border-radius: 5px;
   grid-column: 1/4;
   grid-row: 5/8;

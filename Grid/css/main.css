@@ -5,7 +5,7 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background: -prefix-linear-gradient(left, blue, white);
+  background-image: url(../img/fondoindex.jpg);
   font-size: 22px;;
 }
 
@@ -18,7 +18,7 @@ body{
 
 #container .cabecera{
   padding: 9px;
-  background-color:#a60573;
+  background-image: url(../img/fondocabeceraipie.jpg);
   border-radius: 5px;
   grid-column: 1/6;
   grid-row: 1/2;
@@ -26,7 +26,7 @@ body{
 
 #container .texto1{
   padding: 9px;
-  background-color:#2FCF00;
+  background-color:#008336;
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 2/3;
@@ -34,7 +34,7 @@ body{
 
 #container .imagen1{
   padding: 9px;
-  background-color:#97bc27;
+  background-color:#4E6516;
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 3/4;
@@ -42,7 +42,7 @@ body{
 
 #container .texto2{
   padding: 9px;
-  background-color:#ff9800;
+  background-color:#CBFFF9;
   border-radius: 5px;
   grid-column: 4/5;
   grid-row: 2/3;
@@ -58,7 +58,7 @@ body{
 
 #container .texto3{
   padding: 9px;
-  background-color:#FF0000;
+  background-color:#F23939;
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 6/7;
@@ -66,7 +66,7 @@ body{
 
 #container .imagen3{
   padding: 9px;
-  background-color:#ff98ff;
+  background-color:#8B0022;
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 5/6;
@@ -90,7 +90,7 @@ body{
 
 #container .pie{
   padding: 9px;
-  background-color:#0f2255;
+  background-image: url(../img/fondocabeceraipie.jpg);
   border-radius: 5px;
   grid-column: 1/6;
   grid-row: 7/8;

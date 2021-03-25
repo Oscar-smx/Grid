@@ -19,16 +19,18 @@ body{
 }
 
 #container .titulo3{
+  color: black;
   padding: 9px;
-  background-color:#7D3BFF;
+  background-color:#CEFFF7;
   border-radius: 5px;
   grid-column: 1/8;
   grid-row: 1/2;
 }
 
 #container .textojuego3{
+  color: black;
   padding: 9px;
-  background-color:#4C7729;
+  background-color:#52FF91;
   border-radius: 5px;
   grid-column: 1/8;
   grid-row: 3/4;
@@ -50,7 +52,7 @@ body{
 
 #container .Inicio{
   padding: 9px;
-  background-color:#FFE847;
+  background-color:#02B93D;
   border-radius: 5px;
   grid-column: 5/6;
   grid-row: 6/7;
