@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(../img/nierfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 110% 110%;
+  color:white;
+  font-size: 18px;;
+}
+
+#container{
+  display:grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr 2fr 3fr;
+  grid-template-rows: 8vh 2vh 25vh 2vh 14vh 14vh 20vh 3vh;
+}
+
+#container .titulo3{
+  padding: 9px;
+  background-color:#7D3BFF;
+  border-radius: 5px;
+  grid-column: 1/8;
+  grid-row: 1/2;
+}
+
+#container .textojuego3{
+  padding: 9px;
+  background-color:#4C7729;
+  border-radius: 5px;
+  grid-column: 1/8;
+  grid-row: 3/4;
+}
+
+#container .video3{
+  padding: 9px;
+  background-color:#97bc27;
+  border-radius: 5px;
+  grid-column: 1/4;
+  grid-row: 5/8;
+}
+
+#container .video3 iframe{
+  width: 100%;
+  height: 100%;
+
+}
+
+#container .Inicio{
+  padding: 9px;
+  background-color:#FFE847;
+  border-radius: 5px;
+  grid-column: 5/6;
+  grid-row: 6/7;
+}
+
+  img{
+    width: 50%;
+    height:50%;
+  }

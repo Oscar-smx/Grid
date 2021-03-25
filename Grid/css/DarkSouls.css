@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(../img/darksoulsfondo.jpg);
+  color:white;
+  font-size: 18px;;
+}
+
+#container{
+  display:grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr 2fr 3fr;
+  grid-template-rows: 8vh 2vh 25vh 2vh 14vh 14vh 20vh;
+}
+
+#container .titulo1{
+  padding: 9px;
+  background-color:#2E4859;
+  border-radius: 5px;
+  grid-column: 1/8;
+  grid-row: 1/2;
+}
+
+#container .textojuego1{
+  padding: 9px;
+  background-color:#010017;
+  border-radius: 5px;
+  grid-column: 1/8;
+  grid-row: 3/4;
+}
+
+#container .video1{
+  padding: 9px;
+  background-color:#81B5BB;
+  border-radius: 5px;
+  grid-column: 1/4;
+  grid-row: 5/8;
+}
+
+#container .video1 iframe{
+  width: 100%;
+  height: 100%;
+
+}
+
+#container .Inicio{
+  padding: 9px;
+  background-color:#0D4950;
+  border-radius: 5px;
+  grid-column: 5/6;
+  grid-row: 6/7;
+}
+
+  img{
+    width: 50%;
+    height:50%;
+  }

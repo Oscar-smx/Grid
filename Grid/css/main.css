@@ -5,8 +5,7 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #C9F7BC;
-  color:white;
+  background: -prefix-linear-gradient(left, blue, white);
   font-size: 22px;;
 }
 
@@ -14,7 +13,7 @@ body{
   display:grid;
   border: 1px solid red;
   grid-template-columns: 3.75fr 8.75fr 1fr 8.75fr 3.75fr;
-  grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh;
+  grid-template-rows: 10vh 8vh 30vh 4vh 30vh 7.8vh 10vh;
 }
 
 #container .cabecera{
